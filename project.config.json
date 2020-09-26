@@ -32,7 +32,7 @@
     "packNpmRelationList": []
   },
   "compileType": "miniprogram",
-  "appid": "touristappid",
+
   "projectname": "larabbs-weapp",
   "miniprogramRoot": "weapp/",
   "simulatorType": "wechat",

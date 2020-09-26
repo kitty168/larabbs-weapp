@@ -1,5 +1,5 @@
-import { handleActions } from 'redux-actions'
-import { INCREMENT, DECREMENT, ASYNC_INCREMENT } from '../types/counter'
+import { handleActions } from 'redux-actions';
+import { INCREMENT, DECREMENT, ASYNC_INCREMENT } from '../types/counter';
 
 export default handleActions({
   [INCREMENT] (state) {
@@ -24,3 +24,4 @@ export default handleActions({
   num: 0,
   asyncNum: 0
 })
+

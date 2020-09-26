@@ -24,7 +24,7 @@ wepy.app({
   window: {
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#fff',
-    navigationBarTitleText: 'WeChat',
+    navigationBarTitleText: 'Larabbs - kitty',
     navigationBarTextStyle: 'black'
   },
   tabBar: {

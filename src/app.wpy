@@ -20,7 +20,7 @@ wepy.app({
   onLaunch() {
     wepy.wx.login().then(res=>{
       console.log('login', res)
-    })
+    });
   
     
     

@@ -21,11 +21,13 @@
     "@wepy/redux": "^2.0.1",
     "@wepy/use-promisify": "^2.1.0",
     "@wepy/x": "^2.1.0",
+    "lodash": "^4.17.20",
     "miniprogram-slide-view": "0.0.3",
     "redux": "^4.0.1",
     "redux-actions": "^2.6.5",
     "redux-promise": "^0.6.0",
-    "vuex": "^3.5.1"
+    "vuex": "^3.5.1",
+    "we-validator": "^2.1.11"
   },
   "devDependencies": {
     "@wepy/cli": "^2.0.0-alpha.28",

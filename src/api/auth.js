@@ -6,3 +6,23 @@ export function login(data) {
         data: data
     })
 }
+
+// 刷新token
+export function refresh(token) {
+    return request('authorizations/current', {
+        method: 'put',
+        header: {
+            'Authorization': 'Bearer ' + token
+        }
+    })
+}
+
+//退出登录
+export function logout(token) {
+    return request('authorizations/current', {
+        method: 'delete',
+        header: {
+            'Authorization': 'Bearer ' + token
+        }
+    })
+}

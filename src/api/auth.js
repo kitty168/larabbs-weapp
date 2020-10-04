@@ -47,3 +47,11 @@ export function getVerificationCode(key, code) {
       }
     })
 }
+
+// 手机注册
+export function register(data) {
+    return request('weapp/users', {
+      method: 'post',
+      data: data
+    })
+}

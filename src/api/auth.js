@@ -36,3 +36,14 @@ export function getCaptcha(phone) {
       }
     })
 }
+
+// 获取短信验证码
+export function getVerificationCode(key, code) {
+    return request('verificationCodes', {
+      method: 'post',
+      data: {
+        captcha_key: key,
+        captcha_code: code
+      }
+    })
+}
